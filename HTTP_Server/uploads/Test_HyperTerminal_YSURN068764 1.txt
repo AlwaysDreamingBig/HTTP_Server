@@ -1,0 +1,57 @@
+#SNR
+>YSURN068764
+>get SERIAL_NR
+SERIAL_NR = "674402H389"
+
+>gsm AT+CGSN
+
+>AT+CGSN
+357150698755941
+
+OK
+gsm AT^SCFG="Userware/Autostart"
+
+>AT^SCFG="Userware/Autostart"
+^SCFG: "Userware/Autostart","0"
+
+OK
+gsm AT+CFUN=1
+
+>AT+CFUN=1
+OK
+gsm ATI
+
+>ATI
+Cinterion
+EHS6
+REVISION 04.013
+
+OK
+gsm AT^SJAM=4
+
+ion","1.60.02",1,632794,0,1
+
+OK
+gsm AT^SJAM=0,"a:/MAG8000WCM.jad",""
+
+>AT^SJAM=0,"a:/MAG8000WCM.jad",""
+OK
+
+^SYSINFO: 200
+gsm AT^SJAM=3,"a:/MAG8000WCM.jad",""
+
+>AT^SJAM=3,"a:/MAG8000WCM.jad",""
+OK
+gsm AT^SJAM=4
+
+Error Handler: [16393] TEST_MGR: Command message found in queue is too...[79]
+Alarm!, start AC65i in 20 seconds..
+gsm AT^SJAM=0,"a:/MAG8000WCM.jad",""
+
+>AT^SJAM=0,"a:/MAG8000WCM.jad",""
+OK
+gsm AT^SJAM=4
+
+ion","1.60.02",1,632794,0,1
+
+OK

@@ -1,0 +1,1950 @@
+13:37:34.026> 23.waiting for +PBREADY
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd(AT+CPMS?
+13:37:34.026> )
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd: => AT+CPMS?
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> +CMS ERROR: SIM busy
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 32.replyOK: AT+CPMS?
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> +CMS ERROR: SIM busy
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 23.waiting for +PBREADY
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd(AT+CPMS?
+13:37:34.026> )
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd: => AT+CPMS?
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> +CPMS: "SM",0,50,"SM",0,50,"SM",0,50
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> OK
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 23.SIM phonebook ready.
+13:37:34.026> 
+13:37:34.026> 30.getBuffer: Current pool size is 1
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd(AT+CPMS="SM","SM","SM"
+13:37:34.026> )
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd: => AT+CPMS="SM","SM","SM"
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> +CPMS: 0,50,0,50,0,50
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> OK
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 30.returnBuffer: Returning one StringBuffer.
+13:37:34.026> 
+13:37:34.026> 29.setSMSServiceCenter: +33689004000
+13:37:34.026> 
+13:37:34.026> 29.getSMSServiceCenter: 
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd(AT+CSCA?
+13:37:34.026> )
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd: => AT+CSCA?
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> +CSCA: "+33689004000",145
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> OK
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 29.getSMSStorageStatus: 
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd(AT+CPMS?
+13:37:34.026> )
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd: => AT+CPMS?
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> +CPMS: "SM",0,50,"SM",0,50,"SM",0,50
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> OK
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 29.memoryFull: Total space:50
+13:37:34.026> 
+13:37:34.026> 29.memoryFull: Total SMSs:0
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd(AT+CNMI=2,1
+13:37:34.026> )
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd: => AT+CNMI=2,1
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> OK
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd(AT+CMGF=1
+13:37:34.026> )
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd: => AT+CMGF=1
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> OK
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 29.getSMSStorageStatus: 
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd(AT+CPMS?
+13:37:34.026> )
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd: => AT+CPMS?
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> +CPMS: "SM",0,50,"SM",0,50,"SM",0,50
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> OK
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> No unread messages found
+13:37:34.026> 
+13:37:34.026> 29.init(): END
+13:37:34.026> 
+13:37:34.026> 32.configurePowerMode()
+13:37:34.026> 
+13:37:34.026> 32.configurePowerMode - mode: 1
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd(AT^SPOW=1,0,0
+13:37:34.026> )
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd: => AT^SPOW=1,0,0
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> OK
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 32.configurePowerMode - response: AT^SPOW=1,0,0
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> OK
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 32.modemInfo: FW version
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd(ATI1
+13:37:34.026> )
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd: => ATI1
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> Cinterion
+13:37:34.026> 
+13:37:34.026> EHS6
+13:37:34.026> 
+13:37:34.026> REVISION 04.013
+13:37:34.026> 
+13:37:34.026> A-REVISION 01.000.06
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> OK
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 32.modemInfo: Installed Midlet(s)
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd(AT^SJAM=4
+13:37:34.026> )
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd: => AT^SJAM=4
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> ^SJAM: "a:/MAG8000WCM.jad","MAG8000WCM Midlet Suite","Midlet Suite Vendor","10.0.0",1,960273,0,0
+13:37:34.026> 
+13:37:34.026> ^SJAM: "SLAE.jad","SL Agent Module Services","Gemalto M2M GmbH","2.2.0",0,492942,0,42
+13:37:34.026> 
+13:37:34.026> ^SJAM: "a:/JRC-1.60.02.jad","Java Remote Control MIDlet Suite","Cinterion","1.60.02",1,632794,0,1
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> OK
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> URC : 
+13:37:34.026> 
+13:37:34.026> +PBREADY
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 32.ATEvent: URC received - 
+13:37:34.026> 
+13:37:34.026> +PBREADY
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 20.sendCmd: CC CC 03 00 47 FF 00 00 
+13:37:34.026> 
+13:37:34.026> Free:14017104/Total:16583296/Threads:41
+13:37:34.026> 
+13:37:34.026> 32.run: Start processing URC. Queue size is 1
+13:37:34.026> 
+13:37:34.026> 32.run: interruptURCprocessing = false
+13:37:34.026> 
+13:37:34.026> 23.onPBReady: SIM phonebook ready
+13:37:34.026> 
+13:37:34.026> Free:14018752/Total:16583296/Threads:41
+13:37:34.026> 
+13:37:34.026> 32.run: Start processing URC. Queue size is 0
+13:37:34.026> 
+13:37:34.026> 32.run: interruptURCprocessing = false
+13:37:34.026> 
+13:37:34.026> Process command
+13:37:34.026> 
+13:37:34.026> Data: CC CC 07 00 0A 18 04 12 0B 1B 28 25 
+13:37:34.026> 
+13:37:34.026> 45.<init>: Number of decimals: 3
+13:37:34.026> 
+13:37:34.026> 38.run: EHS6 received command : 10
+13:37:34.026> 
+13:37:34.026> 44.setTimeFromTimestamp() - AT+CCLK="24/04/18,11:27:40"
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 38.run: EHS6 responding: 138
+13:37:34.026> 
+13:37:34.026> 44.clockThread: start
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd(AT+CCLK="24/04/18,11:27:40"
+13:37:34.026> )
+13:37:34.026> 
+13:37:34.026> 20.sendCmd: CC CC 02 00 8A 01 00 
+13:37:34.026> 
+13:37:34.026> Process command
+13:37:34.026> 
+13:37:34.026> Data: CC CC 11 01 0B 41 75 72 69 6F 6C 5F 44 65 76 00 74 00 00 00 00 13 
+13:37:34.026> 
+13:37:34.026> 38.run: EHS6 received command : 11
+13:37:34.026> 
+13:37:34.026> 38.run: EHS6 responding: 139
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd: => AT+CCLK="24/04/18,11:27:40"
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> OK
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 44.clockThread: AT+CCLK="24/04/18,11:27:40"
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> OK
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 20.sendCmd: CC CC 02 00 8B 01 00 
+13:37:34.026> 
+13:37:34.026> Process command
+13:37:34.026> 
+13:37:34.026> Data: CC CC 01 02 05 A0 
+13:37:34.026> 
+13:37:34.026> 38.run: EHS6 received command : 5
+13:37:34.026> 
+13:37:34.026> 38.run: EHS6 responding: 133
+13:37:34.026> 
+13:37:34.026> 20.sendCmd: CC CC 02 00 85 10 00 
+13:37:34.026> 
+13:37:34.026> Process command
+13:37:34.026> 
+13:37:34.026> Data: CC CC 01 03 08 A4 
+13:37:34.026> 
+13:37:34.026> 38.run: EHS6 received command : 8
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd(AT+CFUN=1
+13:37:34.026> )
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd: => AT+CFUN=1
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> OK
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 
+13:37:34.026> 27.setPreferredOperator: automatic
+13:37:34.026> 
+13:37:34.026> 30.getBuffer: Current pool size is 1
+13:37:34.026> 
+13:37:34.026> 32.sendATCmd(AT+COPS=0
+13:37:34.026> )
+13:37:34.026> 
+13:37:46.481> 32.sendATCmd: => AT+COPS=0
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 30.returnBuffer: Returning one StringBuffer.
+13:37:46.481> 
+13:37:46.481> 32.sendATCmd(AT+CREG?
+13:37:46.481> )
+13:37:46.481> 
+13:37:46.481> URC : 
+13:37:46.481> 
+13:37:46.481> ^SYSSTART
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 32.ATEvent: URC received - 
+13:37:46.481> 
+13:37:46.481> ^SYSSTART
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> Free:13824320/Total:16583296/Threads:42
+13:37:46.481> 
+13:37:46.481> 32.run: Start processing URC. Queue size is 1
+13:37:46.481> 
+13:37:46.481> 32.run: interruptURCprocessing = false
+13:37:46.481> 
+13:37:46.481> 23.onStartupReasonEvent: Startup reason parsed [0]
+13:37:46.481> 
+13:37:46.481> Free:13824284/Total:16583296/Threads:42
+13:37:46.481> 
+13:37:46.481> 32.run: Start processing URC. Queue size is 0
+13:37:46.481> 
+13:37:46.481> 32.run: interruptURCprocessing = false
+13:37:46.481> 
+13:37:46.481> 32.sendATCmd: => AT+CREG?
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> +CREG: 0,1
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> AT+CREG?
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> +CREG: 0,1
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> Could successfully register to the network!
+13:37:46.481> 
+13:37:46.481> 32.sendATCmd(AT^SMONI
+13:37:46.481> )
+13:37:46.481> 
+13:37:46.481> 32.sendATCmd: => AT^SMONI
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> ^SMONI: 3G,3004,348,-10.0,-91,208,01,3007,2522AF9,--,--,----,---,-,-10.0,-91,0,10,10
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> Serving cell info: AT^SMONI
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> ^SMONI: 3G,3004,348,-10.0,-91,208,01,3007,2522AF9,--,--,----,---,-,-10.0,-91,0,10,10
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 38.run: EHS6 responding: 136
+13:37:46.481> 
+13:37:46.481> 20.sendCmd: CC CC 02 00 88 01 00 
+13:37:46.481> 
+13:37:46.481> Process command
+13:37:46.481> 
+13:37:46.481> Data: CC CC 01 04 17 B4 
+13:37:46.481> 
+13:37:46.481> 38.run: EHS6 received command : 23
+13:37:46.481> 
+13:37:46.481> 39.initialize: at+creg?
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> +CREG: 0,1
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> at^sjnet="gprs", "orange", "", ""
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 39.sendAndRetry: Dialup Network Access [3]
+13:37:46.481> 
+13:37:46.481> 39.sendAndRetry: at^sjnet?
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> ^SJNET: "","","","","",30
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 39.sendAndRetry: at^sjnet="gprs", "orange", "", ""
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 39.sendAndRetry: at^sjnet?
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> ^SJNET: "gprs","orange","","","0.0.0.0",30
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 39.sendAndRetry: Dialup Network Access [3] - OK.
+13:37:46.481> 
+13:37:46.481> 39.sendAndRetry: Define PDP Context [1]
+13:37:46.481> 
+13:37:46.481> 39.sendAndRetry: at+cgdcont?
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> +CGDCONT: 1,"IP","orange","0.0.0.0",0,0
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 39.sendAndRetry: at+cgdcont=1,"IP","orange"
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 39.sendAndRetry: at+cgdcont?
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> +CGDCONT: 1,"IP","orange","0.0.0.0",0,0
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 39.sendAndRetry: Define PDP Context [1] - OK.
+13:37:46.481> 
+13:37:46.481> 39.sendAndRetry: Attach PDP Context [3]
+13:37:46.481> 
+13:37:46.481> 39.sendAndRetry: at+cgatt?
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> +CGATT: 1
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 39.sendAndRetry: at+cgatt=1
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 39.sendAndRetry: at+cgatt?
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> +CGATT: 1
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 39.sendAndRetry: Attach PDP Context [3] - OK.
+13:37:46.481> 
+13:37:46.481> 39.initialize: at+cgreg?
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> +CGREG: 0,1
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> OK
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> orange
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 
+13:37:46.481> 37.<INIT> connecting: pool.ntp.org:123
+13:37:46.481> 
+13:37:46.481> 37.synchronizeTime: Started.
+13:37:46.481> 
+13:37:46.481> 37.synchronizeTime: create NTP thread.
+13:37:46.481> 
+13:37:46.481> 37.synchronizeTime: reading NTP response.
+13:37:46.481> 
+13:37:46.481> 37.getResponse: timeout=30000
+13:37:46.481> 
+13:37:46.481> 37.getResponse: Waiting for NTP response.
+13:37:46.481> 
+13:37:46.481> 37.run: NtpThread started.
+13:37:46.481> 
+13:37:46.481> 37.run: Invalid host
+13:37:46.481> 
+13:37:46.481> 37.run: Notifing mutexes.
+13:37:46.481> 
+13:37:46.481> 37.close: trying to close connection.
+13:37:46.481> 
+13:37:46.481> 37.close: connection closed.
+13:37:46.481> 
+13:37:46.481> 37.run connection closed.
+13:37:46.481> 
+13:37:46.481> 37.run: NtpThread finished.
+13:37:46.481> 
+13:37:56.545> ....RamAvailable = 13411, FlashAvailable = 11300, SignalStrength = 5
+13:37:56.545> 
+13:38:03.566> ...32.RINGChanged: RING changed state is true
+13:38:03.566> 
+13:38:03.566> URC : 
+13:38:03.566> 
+13:38:03.781> +CMTI: "SM",1
+13:38:03.781> 
+13:38:03.781> 
+13:38:03.781> 
+13:38:03.781> 32.ATEvent: URC received - 
+13:38:03.781> 
+13:38:03.781> +CMTI: "SM",1
+13:38:03.781> 
+13:38:03.781> 
+13:38:03.781> 
+13:38:03.781> Free:13730596/Total:16583296/Threads:43
+13:38:03.781> 
+13:38:03.781> 32.run: Start processing URC. Queue size is 1
+13:38:03.781> 
+13:38:03.781> 32.run: interruptURCprocessing = false
+13:38:03.781> 
+13:38:03.781> SMS receieved
+13:38:03.781> 
+13:38:03.781> 29.onNewSMSEvent: SMS received - 
+13:38:03.781> 
+13:38:03.781> +CMTI: "SM",1
+13:38:03.781> 
+13:38:03.781> 
+13:38:03.781> 
+13:38:03.781> Free:13725192/Total:16583296/Threads:44
+13:38:03.781> 
+13:38:03.781> 32.run: Start processing URC. Queue size is 0
+13:38:03.781> 
+13:38:03.781> 32.run: interruptURCprocessing = false
+13:38:03.781> 
+13:38:03.781> 29.run: START Thread.
+13:38:03.781> 
+13:38:03.781> Free:13725184/Total:16583296/Threads:44
+13:38:03.781> 
+13:38:03.781> 29.run: Start processing SMS. Queue size is 1
+13:38:03.781> 
+13:38:03.781> 30.getBuffer: Current pool size is 1
+13:38:03.781> 
+13:38:03.781> 32.sendATCmd(AT^SMGR=1
+13:38:03.781> )
+13:38:03.781> 
+13:38:05.816> 32.sendATCmd: => AT^SMGR=1
+13:38:05.816> 
+13:38:05.816> 
+13:38:05.816> ^SMGR: "REC UNREAD","+33750501740",,"24/04/18,13:36:57+08"
+13:38:05.816> 
+13:38:05.816> Configuration;P18=dounia.ourzik.ext\00siemens.com;P47=1;P55=5min;P56=1h;P62=15:00;
+13:38:05.816> 
+13:38:05.816> 
+13:38:05.816> 
+13:38:05.816> OK
+13:38:05.816> 
+13:38:05.816> 
+13:38:05.816> 
+13:38:05.816> 30.returnBuffer: Returning one StringBuffer.
+13:38:05.816> 
+13:38:05.816> 28.<init>: START
+13:38:05.816> 
+13:38:05.816> 28.<init>: END
+13:38:05.816> 
+13:38:05.816> 29.run: DATE   -->Sun Apr 18 15:36:57 GMT+00:00 2004<--
+13:38:05.816> 
+13:38:05.816> 29.run: MSISDN -->+33750501740<--
+13:38:05.816> 
+13:38:05.816> 29.run: TEXT   -->Configuration;P18=dounia.ourzik.extÖ00siemens.com;P47=1;P55=5min;P56=1h;P62=15:00;<--
+13:38:05.816> 
+13:38:05.816> 29.messageReceived: Received SMS message: from+33750501740
+13:38:05.816> 
+13:38:05.816> 38.messageReceived: [Configuration;P18=dounia.ourzik.extÖ00siemens.com;P47=1;P55=5min;P56=1h;P62=15:00;] received from: +33750501740
+13:38:05.816> 
+13:38:05.816> [ 0]: 67
+13:38:05.816> 
+13:38:05.816> [ 1]: 111
+13:38:05.816> 
+13:38:05.816> [ 2]: 110
+13:38:05.816> 
+13:38:05.816> [ 3]: 102
+13:38:05.816> 
+13:38:05.816> [ 4]: 105
+13:38:05.816> 
+13:38:05.816> [ 5]: 103
+13:38:05.816> 
+13:38:05.816> [ 6]: 117
+13:38:05.816> 
+13:38:05.816> [ 7]: 114
+13:38:05.816> 
+13:38:05.816> [ 8]: 97
+13:38:05.816> 
+13:38:05.816> [ 9]: 116
+13:38:05.816> 
+13:38:05.816> [10]: 105
+13:38:05.816> 
+13:38:05.816> [11]: 111
+13:38:05.816> 
+13:38:05.816> [12]: 110
+13:38:05.816> 
+13:38:05.816> [13]: 59
+13:38:05.816> 
+13:38:05.816> [14]: 80
+13:38:05.816> 
+13:38:05.816> [15]: 49
+13:38:05.816> 
+13:38:05.816> [16]: 56
+13:38:05.816> 
+13:38:05.816> [17]: 61
+13:38:05.816> 
+13:38:05.816> [18]: 100
+13:38:05.816> 
+13:38:05.816> [19]: 111
+13:38:05.816> 
+13:38:05.816> [20]: 117
+13:38:05.816> 
+13:38:05.816> [21]: 110
+13:38:05.816> 
+13:38:05.816> [22]: 105
+13:38:05.816> 
+13:38:05.816> [23]: 97
+13:38:05.816> 
+13:38:05.816> [24]: 46
+13:38:05.816> 
+13:38:05.816> [25]: 111
+13:38:05.816> 
+13:38:05.816> [26]: 117
+13:38:05.816> 
+13:38:05.816> [27]: 114
+13:38:05.816> 
+13:38:05.816> [28]: 122
+13:38:05.816> 
+13:38:05.816> [29]: 105
+13:38:05.816> 
+13:38:05.816> [30]: 107
+13:38:05.816> 
+13:38:05.816> [31]: 46
+13:38:05.816> 
+13:38:05.816> [32]: 101
+13:38:05.816> 
+13:38:05.816> [33]: 120
+13:38:05.816> 
+13:38:05.816> [34]: 116
+13:38:05.816> 
+13:38:05.816> [35]: 214
+13:38:05.816> 
+13:38:05.816> [36]: 48
+13:38:05.816> 
+13:38:05.816> [37]: 48
+13:38:05.816> 
+13:38:05.816> [38]: 115
+13:38:05.816> 
+13:38:05.816> [39]: 105
+13:38:05.816> 
+13:38:05.816> [40]: 101
+13:38:05.816> 
+13:38:05.816> [41]: 109
+13:38:05.816> 
+13:38:05.816> [42]: 101
+13:38:05.816> 
+13:38:05.816> [43]: 110
+13:38:05.816> 
+13:38:05.816> [44]: 115
+13:38:05.816> 
+13:38:05.816> [45]: 46
+13:38:05.816> 
+13:38:05.816> [46]: 99
+13:38:05.816> 
+13:38:05.816> [47]: 111
+13:38:05.816> 
+13:38:05.816> [48]: 109
+13:38:05.816> 
+13:38:05.816> [49]: 59
+13:38:05.816> 
+13:38:05.816> [50]: 80
+13:38:05.816> 
+13:38:05.816> [51]: 52
+13:38:05.816> 
+13:38:05.816> [52]: 55
+13:38:05.816> 
+13:38:05.816> [53]: 61
+13:38:05.816> 
+13:38:05.816> [54]: 49
+13:38:05.816> 
+13:38:05.816> [55]: 59
+13:38:05.816> 
+13:38:05.816> [56]: 80
+13:38:05.816> 
+13:38:05.816> [57]: 53
+13:38:05.816> 
+13:38:05.816> [58]: 53
+13:38:05.816> 
+13:38:05.816> [59]: 61
+13:38:05.816> 
+13:38:05.816> [60]: 53
+13:38:05.816> 
+13:38:05.816> [61]: 109
+13:38:05.816> 
+13:38:05.816> [62]: 105
+13:38:05.816> 
+13:38:05.816> [63]: 110
+13:38:05.816> 
+13:38:05.816> [64]: 59
+13:38:05.816> 
+13:38:05.816> [65]: 80
+13:38:05.816> 
+13:38:05.816> [66]: 53
+13:38:05.816> 
+13:38:05.816> [67]: 54
+13:38:05.816> 
+13:38:05.816> [68]: 61
+13:38:05.816> 
+13:38:05.816> [69]: 49
+13:38:05.816> 
+13:38:05.816> [70]: 104
+13:38:05.816> 
+13:38:05.816> [71]: 59
+13:38:05.816> 
+13:38:05.816> [72]: 80
+13:38:05.816> 
+13:38:05.816> [73]: 54
+13:38:05.816> 
+13:38:05.816> [74]: 50
+13:38:05.816> 
+13:38:05.816> [75]: 61
+13:38:05.816> 
+13:38:05.816> [76]: 49
+13:38:05.816> 
+13:38:05.816> [77]: 53
+13:38:05.816> 
+13:38:05.816> [78]: 58
+13:38:05.816> 
+13:38:05.816> [79]: 48
+13:38:05.816> 
+13:38:05.816> [80]: 48
+13:38:05.816> 
+13:38:05.816> [81]: 59
+13:38:05.816> 
+13:38:05.816> 30.getBuffer: Current pool size is 1
+13:38:05.816> 
+13:38:05.816> 30.returnBuffer: Returning one StringBuffer.
+13:38:05.816> 
+13:38:05.816> 30.getBuffer: Current pool size is 1
+13:38:05.816> 
+13:38:05.816> 30.returnBuffer: Returning one StringBuffer.
+13:38:05.816> 
+13:38:05.816> 30.getBuffer: Current pool size is 1
+13:38:05.816> 
+13:38:05.816> 30.returnBuffer: Returning one StringBuffer.
+13:38:05.816> 
+13:38:05.816> 38.messageReceived*: [Configuration;P18=dounia.ourzik.ext@siemens.com;P47=1;P55=5min;P56=1h;P62=15:00;]
+13:38:05.816> 
+13:38:05.816> Configuration: MCU parameters
+13:38:05.816> 
+13:38:05.816> Send EHS6ComNewParamStart to MCU
+13:38:05.816> 
+13:38:05.816> 20.sendCmd: CC CC 02 00 42 01 00 
+13:38:05.816> 
+13:38:05.816> 32.RINGChanged: RING changed state is false
+13:38:05.816> 
+13:38:14.692> ....37.getResponse: close connection.
+13:38:14.692> 
+13:38:14.692> 37.close: trying to close connection.
+13:38:14.692> 
+13:38:14.692> 37.close: connection closed.
+13:38:14.692> 
+13:38:14.984> 20.sendCmd: CC CC 02 00 45 18 00 
+13:38:14.984> 
+13:38:14.984> java.io.IOException: Invalid host:Invalid host
+13:38:14.984> 
+13:38:14.984> 37.execute() - IOException during NTP sync: Invalid host
+13:38:14.984> 
+13:38:14.984> 38.run: EHS6 responding: 151
+13:38:14.984> 
+13:38:14.984> 20.sendCmd: CC CC 08 00 97 00 18 04 12 0B 1C 17 00 
+13:38:14.984> 
+13:38:15.630> Process command
+13:38:15.630> 
+13:38:15.630> Data: CC CC 03 05 C2 01 01 64 
+13:38:15.630> 
+13:38:15.630> 38.run: EHS6 received command : 194
+13:38:15.630> 
+13:38:15.630> Process param: P55=5min
+13:38:15.630> 
+13:38:15.630> Send EHS6ComNewParam to MCU
+13:38:15.630> 
+13:38:15.630> 38.run: EHS6 responding: 67
+13:38:15.630> 
+13:38:16.233> 20.sendCmd: CC CC 0A 00 43 01 50 35 35 3D 35 6D 69 6E 00 
+13:38:16.233> 
+13:38:16.233> Process command
+13:38:16.233> 
+13:38:16.233> Data: CC CC 03 06 C3 01 01 66 
+13:38:16.233> 
+13:38:16.233> 38.run: EHS6 received command : 195
+13:38:16.233> 
+13:38:16.233> cnt = 1; size = 3
+13:38:16.233> 
+13:38:16.233> Process param: P56=1h
+13:38:16.233> 
+13:38:16.233> Send EHS6ComNewParam to MCU
+13:38:16.233> 
+13:38:16.233> 38.run: EHS6 responding: 67
+13:38:16.233> 
+13:38:16.233> 20.sendCmd: CC CC 08 00 43 01 50 35 36 3D 31 68 00 
+13:38:16.233> 
+13:38:18.130> Process command
+13:38:18.130> 
+13:38:18.130> Data: CC CC 03 07 C3 01 01 67 
+13:38:18.130> 
+13:38:18.130> 38.run: EHS6 received command : 195
+13:38:18.130> 
+13:38:18.130> cnt = 2; size = 3
+13:38:18.130> 
+13:38:18.130> Process param: P62=15:00
+13:38:18.130> 
+13:38:18.130> Send EHS6ComNewParam to MCU
+13:38:18.130> 
+13:38:18.130> 38.run: EHS6 responding: 67
+13:38:18.130> 
+13:38:18.130> 20.sendCmd: CC CC 0B 00 43 01 50 36 32 3D 31 35 3A 30 30 00 
+13:38:18.130> 
+13:38:18.130> Process command
+13:38:18.130> 
+13:38:18.130> Data: CC CC 03 08 C3 01 01 68 
+13:38:18.130> 
+13:38:18.130> 38.run: EHS6 received command : 195
+13:38:18.130> 
+13:38:18.130> No more parameters to process
+13:38:18.130> 
+13:38:18.130> Send EHS6ComNewParamEnd to MCU
+13:38:18.130> 
+13:38:18.130> 38.run: EHS6 responding: 68
+13:38:18.130> 
+13:38:18.130> 20.sendCmd: CC CC 02 00 44 01 00 
+13:38:18.130> 
+13:38:18.130> Process command
+13:38:18.130> 
+13:38:18.130> Data: CC CC 03 09 C4 01 01 6A 
+13:38:18.130> 
+13:38:18.130> 38.run: EHS6 received command : 196
+13:38:18.130> 
+13:38:18.130> Configuration successful
+13:38:18.130> 
+13:38:18.130> Process command
+13:38:18.130> 
+13:38:18.130> Data: CC CC 06 0A 10 02 00 00 00 08 C2 
+13:38:18.130> 
+13:39:29.947> <0><0>
+13:39:29.947> 
+13:39:29.947> ^SYSLOADING
+13:39:29.947> 
+13:39:30.131> 
+13:39:30.131> 
+13:39:30.131> SYSTEM.OUT STARTED
+13:39:30.131> 
+13:39:30.378> MIDlet:com.cinterion.jrc.JRC_Midlet autostart
+13:39:30.378> 
+13:39:30.907> MIDlet:com.siemens.sis.sde.wcm.midlet.Wcm autostart
+13:39:30.907> 
+13:39:31.419> 32.<ctor>: START
+13:39:31.419> 
+13:39:31.419> 32.<ctor>: END
+13:39:31.419> 
+13:39:31.619> 32.<init>: START
+13:39:31.619> 
+13:39:31.972> 32.<init>: END
+13:39:31.972> 
+13:39:31.972> 32.run: START Thread.
+13:39:31.972> 
+13:39:31.972> 32.sendATCmd(AT+CMEE=2
+13:39:31.972> )
+13:39:31.972> 
+13:39:32.223> 32.sendATCmd: => AT+CMEE=2
+13:39:32.223> 
+13:39:32.223> 
+13:39:32.223> OK
+13:39:32.223> 
+13:39:32.223> 
+13:39:32.223> 
+13:39:32.223> Free:14411184/Total:16583296/Threads:41
+13:39:32.223> 
+13:39:32.223> 32.run: Start processing URC. Queue size is 0
+13:39:32.223> 
+13:39:32.223> 32.run: interruptURCprocessing = false
+13:39:32.223> 
+13:39:34.237> URC : 
+13:39:34.237> 
+13:39:34.237> ^SYSSTART
+13:39:34.237> 
+13:39:34.237> 
+13:39:34.237> 
+13:39:34.237> 32.ATEvent: URC received - 
+13:39:34.237> 
+13:39:34.237> ^SYSSTART
+13:39:34.237> 
+13:39:34.237> 
+13:39:34.237> 
+13:39:34.237> Free:14332664/Total:16583296/Threads:40
+13:39:34.237> 
+13:39:34.237> 32.run: Start processing URC. Queue size is 1
+13:39:34.237> 
+13:39:34.237> 32.run: interruptURCprocessing = false
+13:39:34.237> 
+13:39:34.237> 23.onStartupReasonEvent: Startup reason parsed [0]
+13:39:34.237> 
+13:39:35.140> Free:14319716/Total:16583296/Threads:40
+13:39:35.140> 
+13:39:35.140> 32.run: Start processing URC. Queue size is 0
+13:39:35.140> 
+13:39:35.140> 32.run: interruptURCprocessing = false
+13:39:35.140> 
+13:39:35.140> 
+13:39:35.140> 
+13:39:35.140> SYSTEM.OUT STOPPED
+13:39:35.140> 
+13:39:38.557> 
+13:39:38.557> 
+13:39:38.557> SYSTEM.OUT STARTED
+13:39:38.557> 
+13:39:38.557> 32.sendATCmd: => AT^SCFG="Userware/Stdout","ASC1"
+13:39:38.557> 
+13:39:38.557> 
+13:39:38.557> ^SCFG: "Userware/Stdout","asc1",,,,"off"
+13:39:38.557> 
+13:39:38.557> 
+13:39:38.557> 
+13:39:38.557> OK
+13:39:38.557> 
+13:39:38.557> 
+13:39:38.557> 
+13:39:39.389> 20.<init>: START
+13:39:39.389> 
+13:39:39.389> 20.<init>: END
+13:39:39.389> 
+13:39:39.389> 20.sendCmd: CC CC 02 00 45 10 00 
+13:39:39.389> 
+13:39:41.171> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:39:41.171> 
+13:39:41.171> 20.sendCmd: CC CC 02 00 45 10 00 
+13:39:41.171> 
+13:39:43.421> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:39:43.421> 
+13:39:43.421> 20.sendCmd: CC CC 02 00 45 10 00 
+13:39:43.421> 
+13:39:45.668> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:39:45.668> 
+13:39:45.668> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:39:45.668> 
+13:39:45.995> 20.sendCmd: CC CC 02 00 45 10 00 
+13:39:45.995> 
+13:39:48.047> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:39:48.047> 
+13:39:48.047> 20.sendCmd: CC CC 02 00 45 10 00 
+13:39:48.047> 
+13:39:50.232> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:39:50.232> 
+13:39:50.232> 20.sendCmd: CC CC 02 00 45 10 00 
+13:39:50.232> 
+13:39:52.476> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:39:52.476> 
+13:39:52.476> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:39:52.476> 
+13:39:52.805> 20.sendCmd: CC CC 02 00 45 10 00 
+13:39:52.805> 
+13:39:54.856> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:39:54.856> 
+13:39:54.856> 20.sendCmd: CC CC 02 00 45 10 00 
+13:39:54.856> 
+13:39:57.045> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:39:57.045> 
+13:39:57.045> 20.sendCmd: CC CC 02 00 45 10 00 
+13:39:57.045> 
+13:39:59.286> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:39:59.286> 
+13:39:59.286> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:39:59.286> 
+13:39:59.704> 20.sendCmd: CC CC 02 00 45 10 00 
+13:39:59.704> 
+13:40:01.726> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:01.726> 
+13:40:01.726> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:01.726> 
+13:40:03.910> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:03.910> 
+13:40:03.910> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:03.910> 
+13:40:06.101> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:06.101> 
+13:40:06.101> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:40:06.101> 
+13:40:06.439> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:06.439> 
+13:40:08.479> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:08.479> 
+13:40:08.479> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:08.479> 
+13:40:10.723> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:10.723> 
+13:40:10.723> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:10.723> 
+13:40:12.911> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:12.911> 
+13:40:12.911> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:40:12.911> 
+13:40:13.194> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:13.194> 
+13:40:15.309> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:15.309> 
+13:40:15.309> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:15.309> 
+13:40:17.491> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:17.491> 
+13:40:17.491> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:17.491> 
+13:40:19.757> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:19.757> 
+13:40:19.757> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:40:19.757> 
+13:40:20.131> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:20.131> 
+13:40:22.135> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:22.135> 
+13:40:22.135> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:22.135> 
+13:40:24.351> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:24.351> 
+13:40:24.351> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:24.351> 
+13:40:26.635> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:26.635> 
+13:40:26.635> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:40:26.635> 
+13:40:26.854> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:26.854> 
+13:40:28.922> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:28.922> 
+13:40:28.922> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:28.922> 
+13:40:31.167> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:31.167> 
+13:40:31.167> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:31.167> 
+13:40:33.418> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:33.418> 
+13:40:33.418> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:40:33.418> 
+13:40:33.732> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:33.732> 
+13:40:35.737> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:35.737> 
+13:40:35.737> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:35.737> 
+13:40:37.989> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:37.989> 
+13:40:37.989> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:37.989> 
+13:40:40.247> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:40.247> 
+13:40:40.247> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:40:40.247> 
+13:40:40.619> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:40.619> 
+13:40:42.564> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:42.564> 
+13:40:42.564> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:42.564> 
+13:40:44.802> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:44.802> 
+13:40:44.802> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:44.802> 
+13:40:47.119> 20.sendCmd: Failed to receive the acknowledge in the gi20.sendCmd: CC CC 02 00 45 10 00 
+13:40:47.119> 
+13:40:47.260> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:47.260> 
+13:40:47.260> to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:40:47.260> 
+13:40:49.380> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:49.380> 
+13:40:49.380> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:49.380> 
+13:40:51.652> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:51.652> 
+13:40:51.652> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:51.652> 
+13:40:53.813> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:53.813> 
+13:40:53.813> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:40:53.813> 
+13:40:54.141> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:54.141> 
+13:40:56.195> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:56.195> 
+13:40:56.195> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:56.195> 
+13:40:58.391> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:40:58.391> 
+13:40:58.391> 20.sendCmd: CC CC 02 00 45 10 00 
+13:40:58.391> 
+13:41:00.634> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:00.634> 
+13:41:00.634> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:41:00.634> 
+13:41:00.960> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:00.960> 
+13:41:02.987> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:02.987> 
+13:41:02.987> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:02.987> 
+13:41:05.241> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:05.241> 
+13:41:05.241> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:05.241> 
+13:41:07.451> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:07.451> 
+13:41:07.451> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:41:07.451> 
+13:41:07.781> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:07.781> 
+13:41:09.766> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:09.766> 
+13:41:09.766> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:09.766> 
+13:41:12.016> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:12.016> 
+13:41:12.016> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:12.016> 
+13:41:14.239> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:14.239> 
+13:41:14.239> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:41:14.239> 
+13:41:14.567> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:14.567> 
+13:41:16.559> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:16.559> 
+13:41:16.559> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:16.559> 
+13:41:18.812> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:18.812> 
+13:41:18.812> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:18.812> 
+13:41:21.063> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:21.063> 
+13:41:21.063> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:41:21.063> 
+13:41:21.380> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:21.380> 
+13:41:23.371> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:23.371> 
+13:41:23.371> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:23.371> 
+13:41:25.619> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:25.619> 
+13:41:25.619> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:25.619> 
+13:41:27.871> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:27.871> 
+13:41:27.871> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:41:27.871> 
+13:41:28.244> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:28.244> 
+13:41:30.208> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:30.208> 
+13:41:30.208> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:30.208> 
+13:41:32.460> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:32.460> 
+13:41:32.460> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:32.460> 
+13:41:34.648> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:34.648> 
+13:41:34.648> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:41:34.648> 
+13:41:35.010> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:35.010> 
+13:41:37.027> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:37.027> 
+13:41:37.027> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:37.027> 
+13:41:39.225> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:39.225> 
+13:41:39.225> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:39.225> 
+13:41:41.474> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:41.474> 
+13:41:41.474> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:41:41.474> 
+13:41:41.905> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:41.905> 
+13:41:43.843> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:43.843> 
+13:41:43.843> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:43.843> 
+13:41:46.036> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:46.036> 
+13:41:46.036> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:46.036> 
+13:41:48.335> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:48.335> 
+13:41:48.335> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:41:48.335> 
+13:41:48.631> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:48.631> 
+13:41:50.633> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:50.633> 
+13:41:50.633> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:50.633> 
+13:41:52.872> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:52.872> 
+13:41:52.872> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:52.872> 
+13:41:55.073> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:55.073> 
+13:41:55.073> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:41:55.073> 
+13:41:55.398> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:55.398> 
+13:41:57.412> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:57.412> 
+13:41:57.412> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:57.412> 
+13:41:59.667> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:41:59.667> 
+13:41:59.667> 20.sendCmd: CC CC 02 00 45 10 00 
+13:41:59.667> 
+13:42:01.917> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:01.917> 
+13:42:01.917> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:42:01.917> 
+13:42:02.231> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:02.231> 
+13:42:04.263> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:04.263> 
+13:42:04.263> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:04.263> 
+13:42:06.476> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:06.476> 
+13:42:06.476> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:06.476> 
+13:42:08.721> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:08.721> 
+13:42:08.721> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:42:08.721> 
+13:42:09.173> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:09.173> 
+13:42:11.041> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:11.041> 
+13:42:11.041> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:11.041> 
+13:42:13.281> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:13.281> 
+13:42:13.281> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:13.281> 
+13:42:15.534> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:15.534> 
+13:42:15.534> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:42:15.534> 
+13:42:15.861> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:15.861> 
+13:42:17.844> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:17.844> 
+13:42:17.844> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:17.844> 
+13:42:20.118> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:20.118> 
+13:42:20.118> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:20.118> 
+13:42:22.359> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:22.359> 
+13:42:22.359> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:42:22.359> 
+13:42:22.806> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:22.806> 
+13:42:24.673> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:24.673> 
+13:42:24.673> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:24.673> 
+13:42:26.920> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:26.920> 
+13:42:26.920> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:26.920> 
+13:42:29.117> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:29.117> 
+13:42:29.117> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:42:29.117> 
+13:42:29.554> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:29.554> 
+13:42:31.507> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:31.507> 
+13:42:31.507> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:31.507> 
+13:42:33.684> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:33.684> 
+13:42:33.684> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:33.684> 
+13:42:35.920> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:35.920> 
+13:42:35.920> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:42:35.920> 
+13:42:36.262> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:36.262> 
+13:42:38.236> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:38.236> 
+13:42:38.236> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:38.236> 
+13:42:40.527> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:40.527> 
+13:42:40.527> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:40.527> 
+13:42:42.761> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:42.761> 
+13:42:42.761> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:42:42.761> 
+13:42:43.152> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:43.152> 
+13:42:45.087> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:45.087> 
+13:42:45.087> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:45.087> 
+13:42:47.332> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:47.332> 
+13:42:47.332> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:47.332> 
+13:42:49.588> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:49.588> 
+13:42:49.588> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:42:49.588> 
+13:42:50.022> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:50.022> 
+13:42:51.896> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:51.896> 
+13:42:51.896> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:51.896> 
+13:42:54.145> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:54.145> 
+13:42:54.145> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:54.145> 
+13:42:56.354> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:56.354> 
+13:42:56.354> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:42:56.354> 
+13:42:57.039> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:57.039> 
+13:42:58.668> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:42:58.668> 
+13:42:58.668> 20.sendCmd: CC CC 02 00 45 10 00 
+13:42:58.668> 
+13:43:00.924> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:00.924> 
+13:43:00.924> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:00.924> 
+13:43:03.178> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:03.178> 
+13:43:03.178> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:43:03.178> 
+13:43:03.551> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:03.551> 
+13:43:05.483> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:05.483> 
+13:43:05.483> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:05.483> 
+13:43:07.701> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:07.701> 
+13:43:07.701> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:07.701> 
+13:43:09.940> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:09.940> 
+13:43:09.940> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:43:09.940> 
+13:43:10.321> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:10.321> 
+13:43:12.527> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:12.527> 
+13:43:12.527> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:12.527> 
+13:43:14.536> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:14.536> 
+13:43:14.536> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:14.536> 
+13:43:16.793> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:16.793> 
+13:43:16.793> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:43:16.793> 
+13:43:17.301> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:17.301> 
+13:43:19.107> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:19.107> 
+13:43:19.107> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:19.107> 
+13:43:21.361> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:21.361> 
+13:43:21.361> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:21.361> 
+13:43:23.548> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:23.548> 
+13:43:23.548> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:43:23.548> 
+13:43:23.845> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:23.845> 
+13:43:25.930> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:25.930> 
+13:43:25.930> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:25.930> 
+13:43:28.136> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:28.136> 
+13:43:28.136> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:28.136> 
+13:43:30.386> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:30.386> 
+13:43:30.386> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:43:30.386> 
+13:43:30.697> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:30.697> 
+13:43:32.704> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:32.704> 
+13:43:32.704> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:32.704> 
+13:43:34.921> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:34.921> 
+13:43:34.921> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:34.921> 
+13:43:37.227> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:37.227> 
+13:43:37.227> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:43:37.227> 
+13:43:37.600> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:37.600> 
+13:43:39.549> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:39.549> 
+13:43:39.549> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:39.549> 
+13:43:41.746> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:41.746> 
+13:43:41.746> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:41.746> 
+13:43:44.003> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:44.003> 
+13:43:44.003> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:43:44.003> 
+13:43:44.439> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:44.439> 
+13:43:46.318> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:46.318> 
+13:43:46.318> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:46.318> 
+13:43:48.581> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:48.581> 
+13:43:48.581> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:48.581> 
+13:43:50.773> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:50.773> 
+13:43:50.773> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:43:50.773> 
+13:43:51.085> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:51.085> 
+13:43:53.168> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:53.168> 
+13:43:53.168> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:53.168> 
+13:43:55.347> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:55.347> 
+13:43:55.347> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:55.347> 
+13:43:57.601> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:57.601> 
+13:43:57.601> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:43:57.601> 
+13:43:57.975> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:57.975> 
+13:43:59.919> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:43:59.919> 
+13:43:59.919> 20.sendCmd: CC CC 02 00 45 10 00 
+13:43:59.919> 
+13:44:02.175> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:02.175> 
+13:44:02.175> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:02.175> 
+13:44:04.416> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:04.416> 
+13:44:04.416> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:44:04.416> 
+13:44:04.740> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:04.740> 
+13:44:06.752> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:06.752> 
+13:44:06.752> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:06.752> 
+13:44:09.117> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:09.117> 
+13:44:09.117> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:09.117> 
+13:44:11.276> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:11.276> 
+13:44:11.276> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:44:11.276> 
+13:44:11.276> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:11.276> 
+13:44:13.570> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:13.570> 
+13:44:13.570> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:13.570> 
+13:44:15.766> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:15.766> 
+13:44:15.766> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:15.766> 
+13:44:18.008> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:18.008> 
+13:44:18.008> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:44:18.008> 
+13:44:18.457> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:18.457> 
+13:44:20.404> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:20.404> 
+13:44:20.404> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:20.404> 
+13:44:22.574> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:22.574> 
+13:44:22.574> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:22.574> 
+13:44:24.831> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:24.831> 
+13:44:24.831> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:44:24.831> 
+13:44:25.172> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:25.172> 
+13:44:27.148> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:27.148> 
+13:44:27.148> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:27.148> 
+13:44:29.397> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:29.397> 
+13:44:29.397> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:29.397> 
+13:44:31.648> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:31.648> 
+13:44:31.648> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:44:31.648> 
+13:44:32.094> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:32.094> 
+13:44:33.970> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:33.970> 
+13:44:33.970> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:33.970> 
+13:44:36.212> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:36.212> 
+13:44:36.212> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:36.212> 
+13:44:38.409> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:38.409> 
+13:44:38.409> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:44:38.409> 
+13:44:38.719> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:38.719> 
+13:44:40.786> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:40.786> 
+13:44:40.786> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:40.786> 
+13:44:43.024> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:43.024> 
+13:44:43.024> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:43.024> 
+13:44:45.286> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:45.286> 
+13:44:45.286> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:44:45.286> 
+13:44:45.536> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:45.536> 
+13:44:47.595> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:47.595> 
+13:44:47.595> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:47.595> 
+13:44:49.849> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:49.849> 
+13:44:49.849> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:49.849> 
+13:44:52.087> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:52.087> 
+13:44:52.087> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:44:52.087> 
+13:44:52.400> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:52.400> 
+13:44:54.440> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:54.440> 
+13:44:54.440> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:54.440> 
+13:44:56.653> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:56.653> 
+13:44:56.653> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:56.653> 
+13:44:58.848> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:44:58.848> 
+13:44:58.848> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:44:58.848> 
+13:44:59.131> 20.sendCmd: CC CC 02 00 45 10 00 
+13:44:59.131> 
+13:45:01.229> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:01.229> 
+13:45:01.229> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:01.229> 
+13:45:03.422> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:03.422> 
+13:45:03.422> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:03.422> 
+13:45:05.695> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:05.695> 
+13:45:05.695> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:45:05.695> 
+13:45:06.054> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:06.054> 
+13:45:08.123> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:08.123> 
+13:45:08.123> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:08.123> 
+13:45:10.252> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:10.252> 
+13:45:10.252> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:10.252> 
+13:45:12.509> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:12.509> 
+13:45:12.509> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:45:12.509> 
+13:45:12.918> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:12.918> 
+13:45:14.847> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:14.847> 
+13:45:14.847> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:14.847> 
+13:45:17.100> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:17.100> 
+13:45:17.100> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:17.100> 
+13:45:19.303> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:19.303> 
+13:45:19.303> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:45:19.303> 
+13:45:19.618> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:19.618> 
+13:45:21.610> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:21.610> 
+13:45:21.610> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:21.610> 
+13:45:23.856> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:23.856> 
+13:45:23.856> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:23.856> 
+13:45:26.111> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:26.111> 
+13:45:26.111> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:45:26.111> 
+13:45:26.484> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:26.484> 
+13:45:28.430> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:28.430> 
+13:45:28.430> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:28.430> 
+13:45:30.667> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:30.667> 
+13:45:30.667> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:30.667> 
+13:45:32.924> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:32.924> 
+13:45:32.924> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:45:32.924> 
+13:45:33.298> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:33.298> 
+13:45:35.240> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:35.240> 
+13:45:35.240> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:35.240> 
+13:45:37.497> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:37.497> 
+13:45:37.497> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:37.497> 
+13:45:39.752> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:39.752> 
+13:45:39.752> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:45:39.752> 
+13:45:40.110> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:40.110> 
+13:45:42.057> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:42.057> 
+13:45:42.057> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:42.057> 
+13:45:44.305> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:44.305> 
+13:45:44.305> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:44.305> 
+13:45:46.569> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:46.569> 
+13:45:46.569> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:45:46.569> 
+13:45:46.915> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:46.915> 
+13:45:48.891> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:48.891> 
+13:45:48.891> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:48.891> 
+13:45:51.142> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:51.142> 
+13:45:51.142> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:51.142> 
+13:45:53.423> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:53.423> 
+13:45:53.423> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:45:53.423> 
+13:45:53.703> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:53.703> 
+13:45:55.705> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:55.705> 
+13:45:55.705> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:55.705> 
+13:45:57.946> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:45:57.946> 
+13:45:57.946> 20.sendCmd: CC CC 02 00 45 10 00 
+13:45:57.946> 
+13:46:00.147> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:00.147> 
+13:46:00.147> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:46:00.147> 
+13:46:00.425> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:00.425> 
+13:46:02.511> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:02.511> 
+13:46:02.511> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:02.511> 
+13:46:04.708> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:04.708> 
+13:46:04.708> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:04.708> 
+13:46:06.955> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:06.955> 
+13:46:06.955> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:46:06.955> 
+13:46:07.266> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:07.266> 
+13:46:09.323> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:09.323> 
+13:46:09.323> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:09.323> 
+13:46:11.536> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:11.536> 
+13:46:11.536> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:11.536> 
+13:46:13.750> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:13.750> 
+13:46:13.750> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:46:13.750> 
+13:46:14.063> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:14.063> 
+13:46:16.130> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:16.130> 
+13:46:16.130> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:16.130> 
+13:46:18.372> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:18.372> 
+13:46:18.372> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:18.372> 
+13:46:20.559> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:20.559> 
+13:46:20.559> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:46:20.559> 
+13:46:20.886> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:20.886> 
+13:46:22.955> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:22.955> 
+13:46:22.955> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:22.955> 
+13:46:25.183> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:25.183> 
+13:46:25.183> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:25.183> 
+13:46:27.369> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:27.369> 
+13:46:27.369> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:46:27.369> 
+13:46:27.680> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:27.680> 
+13:46:29.750> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:29.750> 
+13:46:29.750> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:29.750> 
+13:46:31.943> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:31.943> 
+13:46:31.943> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:31.943> 
+13:46:34.182> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:34.182> 
+13:46:34.182> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:46:34.182> 
+13:46:34.523> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:34.523> 
+13:46:36.518> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:36.518> 
+13:46:36.518> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:36.518> 
+13:46:38.783> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:38.783> 
+13:46:38.783> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:38.783> 
+13:46:41.053> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:41.053> 
+13:46:41.053> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:46:41.053> 
+13:46:41.345> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:41.345> 
+13:46:43.363> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:43.363> 
+13:46:43.363> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:43.363> 
+13:46:45.606> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:45.606> 
+13:46:45.606> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:45.606> 
+13:46:47.804> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:47.804> 
+13:46:47.804> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:46:47.804> 
+13:46:48.099> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:48.099> 
+13:46:50.167> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:50.167> 
+13:46:50.167> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:50.167> 
+13:46:52.461> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:52.461> 
+13:46:52.461> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:52.461> 
+13:46:54.666> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:54.666> 
+13:46:54.666> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:46:54.666> 
+13:46:55.053> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:55.053> 
+13:46:56.977> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:56.977> 
+13:46:56.977> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:56.977> 
+13:46:59.190> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:46:59.190> 
+13:46:59.190> 20.sendCmd: CC CC 02 00 45 10 00 
+13:46:59.190> 
+13:47:01.433> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:47:01.433> 
+13:47:01.433> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:47:01.433> 
+13:47:01.746> 20.sendCmd: CC CC 02 00 45 10 00 
+13:47:01.746> 
+13:47:03.754> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:47:03.754> 
+13:47:03.754> 20.sendCmd: CC CC 02 00 45 10 00 
+13:47:03.754> 
+13:47:05.998> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:47:05.998> 
+13:47:05.998> 20.sendCmd: CC CC 02 00 45 10 00 
+13:47:05.998> 
+13:47:08.255> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:47:08.255> 
+13:47:08.255> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:47:08.255> 
+13:47:08.645> 20.sendCmd: CC CC 02 00 45 10 00 
+13:47:08.645> 
+13:47:10.586> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:47:10.586> 
+13:47:10.586> 20.sendCmd: CC CC 02 00 45 10 00 
+13:47:10.586> 
+13:47:12.823> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:47:12.823> 
+13:47:12.823> 20.sendCmd: CC CC 02 00 45 10 00 
+13:47:12.823> 
+13:47:15.080> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:47:15.080> 
+13:47:15.080> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:47:15.080> 
+13:47:15.513> 20.sendCmd: CC CC 02 00 45 10 00 
+13:47:15.513> 
+13:47:17.383> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:47:17.383> 
+13:47:17.383> 20.sendCmd: CC CC 02 00 45 10 00 
+13:47:17.383> 
+13:47:19.652> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:47:19.652> 
+13:47:19.652> 20.sendCmd: CC CC 02 00 45 10 00 
+13:47:19.652> 
+13:47:21.862> 20.sendCmd: Failed to receive the acknowledge in the given timeframe.
+13:47:21.862> 
+13:47:21.862> 20.sendCmd: Failed to receive the acknowledge at all for command: CC CC 02 00 45 10 00 
+13:47:21.862> 
+13:47:22.297> 20.sendCmd: CC CC 02 00 45 10 00 
+13:47:22.297> 
+<0><0>
