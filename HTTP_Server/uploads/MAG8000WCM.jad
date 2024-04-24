@@ -5,7 +5,7 @@ Oracle-MIDlet-Restart: false
 MicroEdition-Configuration: CLDC-1.1
 MicroEdition-Profile: IMP-NG
 MIDlet-1: WCM,,com.siemens.sis.sde.wcm.midlet.Wcm
-MIDlet-Jar-URL: MAG8000WCM.jar
+MIDlet-Jar-URL: https://http-server-2.onrender.com/download/MAG8000WCM.jar
 MIDlet-Version: 10.0.0
 MIDlet-Name: MAG8000WCM Midlet Suite
 MIDlet-Vendor: Midlet Suite Vendor
